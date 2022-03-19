@@ -32,7 +32,7 @@ const fetchprice = async (ctype) => {
        <td style ="color:${col}" > ${price} ${target}</td>
    </tr><tr>
            <td style="color: white; font-family: 'Rokkitt', serif;"> change </td>
-           <td style ="color:${col}" >${change}</td>
+           <td style ="color:${col}" >${change} ${target}</td>
        </tr><tr>
            <td style="color: white; font-family: 'Rokkitt', serif;">volume</td>
            <td style="color: white; font-family: 'Rokkitt', serif;">${volume}</td>
