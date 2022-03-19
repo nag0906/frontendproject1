@@ -19,6 +19,7 @@ const fetchprice = async (ctype) => {
     const volume = r.data.coin.volume;
     const base = r.data.coin.name;
     const target= 'INR';
+    const per = '%';
     var col ="green";
     if(change<0){
      col = "red";
@@ -32,7 +33,7 @@ const fetchprice = async (ctype) => {
        <td style ="color:${col}" > ${price} ${target}</td>
    </tr><tr>
            <td style="color: white; font-family: 'Rokkitt', serif;"> change(24hrs)</td>
-           <td style ="color:${col}" >${change} ${target}</td>
+           <td style ="color:${col}" >${change} ${per}</td>
        </tr><tr>
            <td style="color: white; font-family: 'Rokkitt', serif;">volume(24hrs)</td>
            <td style="color: white; font-family: 'Rokkitt', serif;">${volume}</td>
