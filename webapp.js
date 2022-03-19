@@ -24,8 +24,8 @@ const fetchprice = async (ctype) => {
      col = "red";
     }
     res.innerHTML = ` <tr>
-    <td style="color: white; font-family: 'Rokkitt', serif;background-color: #54c9a6; "> Property </td>
-     <td style="color: white; font-family: 'Rokkitt', serif;background-color: #54c9a6;">value </td>
+    <td style="color: black; background-color: #54c9a6;height:40px "> Property </td>
+     <td style="color: black; background-color: #54c9a6;height:40px">value </td>
    </tr>
    <tr>
        <td style="color: white; font-family: 'Rokkitt', serif;">${base}</td>
