@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>cryptotracker</title>
+</head>
+<style>
+    body{
+       
+        background-color: #03071a;
+    }
+    /* .submain{
+        display: inline-block;
+    width: auto;
+        border-color: black;
+        border-radius: 5px;
+        border-color: rgb(255, 0, 13);
+
+    } */
+</style>
+
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <h1 class=" col-md-7 text-center" style="color: white;">Crypto tracker </h1>
+            <h4 class=" col-md-7 text-center" style="color: whitesmoke;">by Currencyplatform</h4>
+            <div class=" col-md-6 row justify-content-center submain">
+                <div class="col-10">
+                    <form action="" id="searchform">
+                        <div class="form-row">
+                            <div class="col-12 form-group">
+                                <label for="val" style="color: white;">Cointype</label>
+                                 <select name="cointype" class="form-control" id="val">
+                                    <option value="bitcoin"> Bitcoin</option>
+                                    <option value="dogecoin"> Dogecoin</option>
+                                    <option value="ethereum"> Ethereum</option>
+                                    <option value="polkadot"> Palkodot</option>
+                                    <option value="tether"> Tether</option>
+                                </select>
+                                
+                            </div>
+
+                        </div>
+                        <button type="submit" class="col-12 btn  " style="background-color: aquamarine;">Get price</button>
+
+
+                    </form>
+
+                </div>
+
+            </div>
+            <div class="col-md-7 text-center row justify-content-center"> <table class="col-md-5 m-5" border ="3px " style="border: #8ec3db;" id = "result">
+               
+            </table>       </div>
+        </div>
+
+    </div>
+   >
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="webapp.js"></script>
+</body>
+
+</html>
